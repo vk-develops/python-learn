@@ -1,6 +1,17 @@
-print(4**3)
+def triangle(n):
+     
+    k = n - 1
+ 
+    for i in range(0, n):
 
-pi = 22/7
-Vol = (4*pi*(8**3))/3
-print(round(Vol, 2))
-print(0 or 1)
+        for j in range(0, k):
+            print(end=" ")
+     
+        k = k - 1
+
+        for j in range(0, i+1):
+            print("* ", end="")
+     
+        print("\r")
+
+triangle(5)
