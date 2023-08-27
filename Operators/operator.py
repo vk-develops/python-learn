@@ -19,17 +19,3 @@ def solve(A, B):
     return A + B
 
 print(solve("interveiw", "Bit"))
-
-
-def volume_sphere(r):
-    '''input: r = Input in integer format
-       output:return Vol of sphere upto two decimals'''
-    # YOUR CODE GOES HERE
-    Vol=None
-    
-    pi = 22/7
-    Vol = (4*pi*(r^3))/3
-    
-    return Vol
-
-print(volume_sphere(8))
